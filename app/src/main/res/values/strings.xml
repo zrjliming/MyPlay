@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyPlay</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="toobar_mid_title_one">MyPlay</string>
+    <string name="bottombar_index">首页</string>
+    <string name="bottombar_user">我的</string>
+    <string name="toolbar_regiht_title_one">设置</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+
+</resources>

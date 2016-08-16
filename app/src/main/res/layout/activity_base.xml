@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <android.support.v7.widget.Toolbar
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@mipmap/title_bar"
+       android:id="@+id/base_toolbar">
+
+    <TextView
+        android:id="@+id/tv_toolbar_mid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toobar_mid_title_one"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tag_text_max_size"
+        android:layout_gravity="center"
+        />
+
+
+
+    <ImageView
+    android:id="@+id/img_toolbar_left"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|center_vertical"
+    android:paddingLeft="20dp"
+    android:background="@mipmap/title_return_pressed"
+    android:visibility="gone"
+    />
+    <TextView
+        android:id="@+id/tv_toolbar_regiht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:layout_gravity="end|center_vertical"
+        android:text="@string/toolbar_regiht_title_one"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/tag_text_size"
+        android:visibility="gone"
+      />
+
+</android.support.v7.widget.Toolbar>
+
+
